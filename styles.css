@@ -1,0 +1,136 @@
+* {
+    color: seashell;
+    font-family: helvetica;
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+}
+.logo {
+    opacity: 0.9;
+    height: 50px;
+    padding-left: 10px;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    border-bottom: 1px solid seashell;
+}
+a:link {
+    color: seashell;
+    font-size: 22px;
+    font-family: helvetica, arial;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    }
+
+a:visited {
+    color: white;
+    font-size: 22px;
+    font-family: helvetica, arial;
+}
+
+.nav {
+    float: right;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission-container {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.month {
+    text-align: center;
+    font-family: helvetica, arial;
+    color: seashell;
+}
+figure img {
+    height: 200px;
+    width: 300px;
+}
+figure figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-family: helvetica, arial;
+    color: seashell;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.squares {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+}
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.black-square {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+.contact {
+    text-align: center;
+    height: 200px;
+}
+.footer {
+    float: left;
+    padding-left: 20px;
+}
